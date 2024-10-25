@@ -1,0 +1,123 @@
+[
+    {
+      "id": 1,
+      "img": "https://via.placeholder.com/150",
+      "name": "David Warner",
+      "role": "Batsman",
+      "country": "Australia",
+      "price": "$1.5M",
+      "rating": 8.5,
+      "handed_bat": "Right"
+    },
+    {
+      "id": 2,
+      "img": "https://via.placeholder.com/150",
+      "name": "Virat Kohli",
+      "role": "Batsman",
+      "country": "India",
+      "price": "$2.0M",
+      "rating": 9.1,
+      "handed_bat": "Left"
+    },
+    {
+      "id": 3,
+      "img": "https://via.placeholder.com/150",
+      "name": "DJ Bravo",
+      "role": "Bowler",
+      "country": "West Indies",
+      "price": "$1.2M",
+      "rating": 7.8,
+      "handed_bat": "Right"
+    },
+    {
+      "id": 4,
+      "img": "https://via.placeholder.com/150",
+      "name": "Kane Williamson",
+      "role": "Batsman",
+      "country": "New Zealand",
+      "price": "$1.7M",
+      "rating": 8.3,
+      "handed_bat": "Left"
+    },
+    {
+      "id": 5,
+      "img": "https://via.placeholder.com/150",
+      "name": "Narndre Burger",
+      "role": "Bowler",
+      "country": "South Africa",
+      "price": "$1.6M",
+      "rating": 8.2,
+      "handed_bat": "Right"
+    },
+    {
+      "id": 6,
+      "img": "https://via.placeholder.com/150",
+      "name": "MS Dhoni",
+      "role": "Wicketkeeper",
+      "country": "India",
+      "price": "$1.8M",
+      "rating": 8.7,
+      "handed_bat": "Right"
+    },
+    {
+      "id": 7,
+      "img": "https://via.placeholder.com/150",
+      "name": "Harry Brook",
+      "role": "Batsman",
+      "country": "England",
+      "price": "$2.1M",
+      "rating": 9.0,
+      "handed_bat": "Left"
+    },
+    {
+      "id": 8,
+      "img": "https://via.placeholder.com/150",
+      "name": "Shahid Afridi",
+      "role": "All-rounder",
+      "country": "Pakistan",
+      "price": "$2.2M",
+      "rating": 9.3,
+      "handed_bat": "Right"
+    },
+    {
+      "id": 9,
+      "img": "https://via.placeholder.com/150",
+      "name": "Mitchel Stark",
+      "role": "Bowler",
+      "country": "Australia",
+      "price": "$1.4M",
+      "rating": 7.9,
+      "handed_bat": "Left"
+    },
+    {
+      "id": 10,
+      "img": "https://via.placeholder.com/150",
+      "name": "Mushfiqur Rahim",
+      "role": "Wicketkeeper",
+      "country": "Bangladesh",
+      "price": "$1.9M",
+      "rating": 8.6,
+      "handed_bat": "Right"
+    },
+    {
+      "id": 11,
+      "img": "https://via.placeholder.com/150",
+      "name": "Alex Hales",
+      "role": "Batsman",
+      "country": "England",
+      "price": "$2.3M",
+      "rating": 9.2,
+      "handed_bat": "Left"
+    },
+    {
+      "id": 12,
+      "img": "https://via.placeholder.com/150",
+      "name": "Wanindu Hasaranga",
+      "role": "All-rounder",
+      "country": "Sri Lanka",
+      "price": "$2.4M",
+      "rating": 9.4,
+      "handed_bat": "Right"
+    }
+  ]
+  

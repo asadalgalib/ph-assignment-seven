@@ -9,4 +9,4 @@ Currently, two official plugins are available:
 
 ## Live Link 
 
-Live Link : asad09-ph-assignment-seven.surge.sh
+Live Link : https://asad09-ph-assignment-seven.surge.sh
