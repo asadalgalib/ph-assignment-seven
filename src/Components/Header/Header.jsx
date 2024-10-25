@@ -1,7 +1,7 @@
 const Header = () => {
     return (
         <div>
-            <h1 className='text-center text-4xl'>Header</h1>
+            <h1 className='text-center text-4xl font-bold'>Header</h1>
         </div>
     );
 };
