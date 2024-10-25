@@ -29,8 +29,8 @@ const Header = () => {
                 <img className='mt-16' src={hero} alt="" />
                 <h1 className='text-4xl font-bold text-white mt-6'>Assemble Your Ultimate Dream 11 Cricket Team</h1>
                 <p className='text-2xl text-[#FFFFFFB3] mt-5'>Beyond Boundaries Beyond Limits</p>
-                <div className='border-2 border-[#E7FE29] rounded-2xl p-1 mt-5 mb-16'>
-                    <button className='btn bg-[#E7FE29] hover:bg-[#eaff75] rounded-xl font-bold'>Claim Free Credit</button>
+                <div className='border-2 border-blue-700 rounded-2xl p-1 mt-5 mb-16'>
+                    <button className='btn hover:border-blue-700 rounded-xl bg-blue-700 hover:bg-blue-200 hover:text-black text-[#fff]  font-bold border-none'>Claim Free Credit</button>
                 </div>
             </div>
         </div>
