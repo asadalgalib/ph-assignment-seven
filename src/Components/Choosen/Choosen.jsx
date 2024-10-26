@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 import { RiDeleteBin5Line } from "react-icons/ri";
 
 const Choosen = ({ select,handleDelet }) => {
-    const { img,name,handed_bat,price,type } = select
+    const { img,name,price,role } = select
    
 
     return (
@@ -13,8 +13,7 @@ const Choosen = ({ select,handleDelet }) => {
                         <img className='w-52 h-full rounded-md' src={img} alt="" />
                         <div className='flex-col flex justify-around'>
                             <h2 className='text-xl font-semibold'>{name}</h2>
-                            <p className='font-medium text-[#13131398]'>{handed_bat} Handed Bat</p>
-                            <p className='font-medium text-[#13131398]'>{type} Bowler</p>
+                            <p className='font-medium text-[#13131398]'>{role}</p>
                             <p className='text-xl font-medium'>$ {price}</p>
                         </div>
                     </div>

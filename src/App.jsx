@@ -45,7 +45,7 @@ function App() {
     }
     else if (newSelected.length <= 6) {
       setSelected(newSelected);
-      toast.success("You have successfully Selected this Playes");
+      toast.success("You have successfully Selected this Player");
     }
     else {
       toast.error("You have already Selected six players");
@@ -58,6 +58,7 @@ function App() {
     const remainig = selected.filter(s => s.id !== delet.id);
     setSelected(remainig)
     setBalance(balance + delet.price)
+    toast.error("You have deleted selected Player");
   }
 
   return (
