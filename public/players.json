@@ -7,7 +7,8 @@
       "country": "Australia",
       "price": 15000,
       "rating": 8.5,
-      "handed_bat": "Right"
+      "handed_bat": "Right",
+      "type": "N/A"
     },
     {
       "id": 2,
@@ -17,7 +18,8 @@
       "country": "India",
       "price": 20000,
       "rating": 9.1,
-      "handed_bat": "Left"
+      "handed_bat": "Left",
+      "type": "Off Break"
     },
     {
       "id": 3,
@@ -27,7 +29,8 @@
       "country": "West Indies",
       "price": 12000,
       "rating": 7.8,
-      "handed_bat": "Right"
+      "handed_bat": "N/A",
+      "type": "Medium Fast"
     },
     {
       "id": 4,
@@ -37,7 +40,8 @@
       "country": "New Zealand",
       "price": 17000,
       "rating": 8.3,
-      "handed_bat": "Left"
+      "handed_bat": "Left",
+      "type": "N/A"
     },
     {
       "id": 5,
@@ -47,7 +51,8 @@
       "country": "South Africa",
       "price": 16000,
       "rating": 9.8,
-      "handed_bat": "Right"
+      "handed_bat": "Right",
+      "type": "Fast"
     },
     {
       "id": 6,
@@ -57,7 +62,8 @@
       "country": "India",
       "price": 18000,
       "rating": 8.7,
-      "handed_bat": "Right"
+      "handed_bat": "Right",
+      "type": "N/A"
     },
     {
       "id": 7,
@@ -67,7 +73,8 @@
       "country": "England",
       "price": 21000,
       "rating": 9.0,
-      "handed_bat": "Left"
+      "handed_bat": "Left",
+      "type": "N/A"
     },
     {
       "id": 8,
@@ -77,7 +84,8 @@
       "country": "Pakistan",
       "price": 22000,
       "rating": 9.3,
-      "handed_bat": "Right"
+      "handed_bat": "Right",
+      "type": "Fast"
     },
     {
       "id": 9,
@@ -87,7 +95,8 @@
       "country": "Australia",
       "price": 14000,
       "rating": 7.9,
-      "handed_bat": "Left"
+      "handed_bat": "Left",
+      "type": "Medium Fast"
     },
     {
       "id": 10,
@@ -97,7 +106,8 @@
       "country": "Bangladesh",
       "price": 19000,
       "rating": 8.6,
-      "handed_bat": "Right"
+      "handed_bat": "Right",
+      "type": "N/A"
     },
     {
       "id": 11,
@@ -107,7 +117,8 @@
       "country": "England",
       "price": 23000,
       "rating": 9.2,
-      "handed_bat": "Left"
+      "handed_bat": "Left",
+      "type": "N/A"
     },
     {
       "id": 12,
@@ -117,7 +128,8 @@
       "country": "Sri Lanka",
       "price": 24000,
       "rating": 9.4,
-      "handed_bat": "Right"
+      "handed_bat": "Right",
+      "type": "Leg Break"
     }
   ]
   

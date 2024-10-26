@@ -1,8 +1,11 @@
 import Logo from '../../assets/logo.png'
 import hero from '../../assets/banner-main.png'
 import { ImCoinDollar } from "react-icons/im";
+import PropTypes from 'prop-types'
 
-const Header = () => {
+const Header = ({balance,handleCoin}) => {
+    
+    
     return (
         <div className="" >
             <div className='sticky top-0 backdrop-blur bg-white bg-opacity-50 px-36'>
@@ -20,7 +23,7 @@ const Header = () => {
                             </ul>
                         </div>
                         <div className='border-2 bg-blue-400 rounded-xl py-3 px-5 text-[#fff]'>
-                            <p className='text-lg font-bold flex items-center justify-center gap-2'><span>0</span> Coin <span className='text-2xl'><ImCoinDollar></ImCoinDollar></span></p>
+                            <p className='text-lg font-bold flex items-center justify-center gap-2'><span className='text-[#ffec82]'>{balance}</span> Coin <span className='text-2xl text-[#ffec82]'><ImCoinDollar></ImCoinDollar></span></p>
                         </div>
                     </div>
                 </div>
@@ -30,11 +33,16 @@ const Header = () => {
                 <h1 className='text-4xl font-bold text-white mt-6'>Assemble Your Ultimate Dream 11 Cricket Team</h1>
                 <p className='text-2xl text-[#FFFFFFB3] mt-5'>Beyond Boundaries Beyond Limits</p>
                 <div className='border-2 border-blue-700 rounded-2xl p-1 mt-5 mb-16'>
-                    <button className='btn hover:border-blue-700 rounded-xl bg-gradient-to-r from-blue-500 to-pink-500 hover:text-black text-[#fff]  font-bold border-none'>Claim Free Credit</button>
+                    <button onClick={handleCoin} className='btn hover:border-blue-700 rounded-xl bg-gradient-to-r from-blue-500 to-pink-500 hover:text-black text-[#fff]  font-bold border-none'>Claim Free Credit</button>
                 </div>
             </div>
         </div>
     );
 };
+
+Header.propTypes ={
+    balance: PropTypes.number,
+    handleCoin : PropTypes.func
+}
 
 export default Header;

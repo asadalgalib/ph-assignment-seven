@@ -4,9 +4,9 @@ import { FaFlag } from "react-icons/fa6";
 import { FaStar } from "react-icons/fa";
 import { FaStarHalfStroke } from "react-icons/fa6";
 
-const SingleCard = ({ card, handleSelected }) => {
+const SingleCard = ({ card, handleChoosePlayer }) => {
 
-    const { name,img, country,role,rating,handed_bat,price } = card;
+    const { name, img, country, role, rating, handed_bat, price, type } = card;
     return (
         <div className="card bg-base-100 border p-4">
             <figure>
@@ -30,8 +30,8 @@ const SingleCard = ({ card, handleSelected }) => {
                 </div>
                 <div className='space-y-3'>
                     <p className='flex text-[#ffe659]'><FaStar></FaStar><FaStar></FaStar><FaStar></FaStar><FaStar></FaStar><FaStarHalfStroke></FaStarHalfStroke></p>
-                    <p className='text-[#13131398]'>{handed_bat} Handed Bat</p>
-                    <button onClick={() => handleSelected(card)} className='border-2 hover:border-blue-700 rounded-xl hover:bg-blue-100 font-semibold hover:text-black text-[#fff] bg-blue-400 py-2 px-6 '>Choose Player</button>
+                    <p className='text-[#13131398]'>{type} Bowler</p>
+                    <button onClick={() => handleChoosePlayer(card)} className='border-2 hover:border-blue-700 rounded-xl hover:bg-blue-100 font-semibold hover:text-black text-[#fff] bg-blue-400 py-2 px-6 '>Choose Player</button>
                 </div>
             </div>
         </div>
@@ -40,7 +40,7 @@ const SingleCard = ({ card, handleSelected }) => {
 
 SingleCard.propTypes = {
     card: PropTypes.object.isRequired,
-    handleSelected : PropTypes.func.isRequired
+    handleChoosePlayer: PropTypes.func
 }
 
 export default SingleCard;

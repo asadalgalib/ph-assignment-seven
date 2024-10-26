@@ -1,12 +1,28 @@
-# React + Vite
+# Cricket XI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to Shohoj shorol simple Assignment
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This a website of Online Cricket Game. In this Website you can make your Dream team. But yiu can only select 6 players. You can get bonus coin. Using this coin you cane make a stronge team to easily win exiting prizes
 
-## Live Link 
+## Technologies
+
+In this project I have Used many REACT & ES6 technologies such as
+
+- React component
+- Arry methods
+- Fetch fake API 
+- React Toastify
+- Import Export
+- Data lifting
+
+## Key Features
+
+- You can Select playes by clicking on Choose Player Button
+- You can delete selected Players
+- You can Get Bonus by clicking button
+
+## Live Link
 
 Live Link : https://asad09-ph-assignment-seven.surge.sh
