@@ -4,13 +4,13 @@ import { FaFlag } from "react-icons/fa6";
 import { FaStar } from "react-icons/fa";
 import { FaStarHalfStroke } from "react-icons/fa6";
 
-const SingleCard = ({ card }) => {
-    console.log(card)
-    const { name,img, country,role,rating,handed_bat,price } = card
+const SingleCard = ({ card, handleSelected }) => {
+
+    const { name,img, country,role,rating,handed_bat,price } = card;
     return (
         <div className="card bg-base-100 border p-4">
             <figure>
-                <img
+                <img className='rounded-md'
                     src={img}
                     alt="Shoes" />
             </figure>
@@ -31,7 +31,7 @@ const SingleCard = ({ card }) => {
                 <div className='space-y-3'>
                     <p className='flex text-[#ffe659]'><FaStar></FaStar><FaStar></FaStar><FaStar></FaStar><FaStar></FaStar><FaStarHalfStroke></FaStarHalfStroke></p>
                     <p className='text-[#13131398]'>{handed_bat} Handed Bat</p>
-                    <button className='border-2 hover:border-blue-700 rounded-xl hover:bg-blue-200 font-semibold hover:text-black text-[#fff] bg-blue-700 py-2 px-6 '>Choose Player</button>
+                    <button onClick={() => handleSelected(card)} className='border-2 hover:border-blue-700 rounded-xl hover:bg-blue-200 font-semibold hover:text-black text-[#fff] bg-blue-700 py-2 px-6 '>Choose Player</button>
                 </div>
             </div>
         </div>
@@ -39,7 +39,8 @@ const SingleCard = ({ card }) => {
 };
 
 SingleCard.propTypes = {
-    card: PropTypes.object.isRequired
+    card: PropTypes.object.isRequired,
+    handleSelected : PropTypes.func.isRequired
 }
 
 export default SingleCard;
