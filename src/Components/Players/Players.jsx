@@ -16,13 +16,14 @@ const Players = () => {
     
     const handleSelected = select => {
         const singleSelected = selected.find((s) => select.id === s.id)
+        const newSelected = [...selected, select];
+
 
         if (singleSelected) {
             alert('etar kam ses')
+            return;
         }
-        const newSelected = [...selected, select];
-
-        if (newSelected.length <= 6) {
+        else if(newSelected.length <= 6) {
             setSelected(newSelected);
         }
         else {
@@ -40,8 +41,8 @@ const Players = () => {
             <div className="max-w-7xl mx-auto mt-10 flex items-center justify-between">
                 <h1 className="text-3xl font-bold">{isTrue? "Available Players" : `Selected Player (${selected.length}/6)` }</h1>
                 <div>
-                    <button onClick={handleAll} className={`border py-2 px-4  rounded-xl font-semibold  rounded-l-full ${isTrue? 'bg-blue-700 border-[#fff] text-[#fff]' : 'bg-blue-200 border-blue-700 text-black'}`}>Available</button>
-                    <button onClick={handleSelect} className={`border py-2 px-4  rounded-xl font-semibold  rounded-r-full ${!isTrue? 'bg-blue-700 border-[#fff] text-[#fff]' : 'bg-blue-200 border-blue-700 text-black'}`}>Selected({selected.length})</button>
+                    <button onClick={handleAll} className={`border py-2 px-4  rounded-xl font-semibold  rounded-l-full ${isTrue? 'bg-blue-400 border-[#fff] text-[#fff]' : 'bg-blue-100 border-blue-700 text-black'}`}>Available</button>
+                    <button onClick={handleSelect} className={`border py-2 px-4  rounded-xl font-semibold  rounded-r-full ${!isTrue? 'bg-blue-400 border-[#fff] text-[#fff]' : 'bg-blue-100 border-blue-700 text-black'}`}>Selected({selected.length})</button>
                 </div>
             </div>
             <div>
@@ -55,3 +56,4 @@ const Players = () => {
 };
 
 export default Players;
+

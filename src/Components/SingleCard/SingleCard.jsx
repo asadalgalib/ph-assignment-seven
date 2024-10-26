@@ -15,9 +15,9 @@ const SingleCard = ({ card, handleSelected }) => {
                     alt="Shoes" />
             </figure>
             <div className="flex flex-col mt-4">
-                <div className='flex items-center justify-start gap-2'><MdAccountCircle className='text-2xl text-blue-700'></MdAccountCircle><h2 className="text-base font-bold">{name}</h2></div>
+                <div className='flex items-center justify-start gap-2'><MdAccountCircle className='text-2xl text-blue-400'></MdAccountCircle><h2 className="text-base font-bold">{name}</h2></div>
                 <div className='flex items-center justify-between mb-2'>
-                    <div className='flex items-center justify-start gap-2 mt-2 text-[#13131398]'><FaFlag className='text-blue-700'></FaFlag>{country}</div>
+                    <div className='flex items-center justify-start gap-2 mt-2 text-[#13131398]'><FaFlag className='text-blue-400'></FaFlag>{country}</div>
                     <p className='border py-1 px-6 rounded-lg bg-slate-100 font-medium'>{role}</p>
                 </div>
                 <hr />
@@ -31,7 +31,7 @@ const SingleCard = ({ card, handleSelected }) => {
                 <div className='space-y-3'>
                     <p className='flex text-[#ffe659]'><FaStar></FaStar><FaStar></FaStar><FaStar></FaStar><FaStar></FaStar><FaStarHalfStroke></FaStarHalfStroke></p>
                     <p className='text-[#13131398]'>{handed_bat} Handed Bat</p>
-                    <button onClick={() => handleSelected(card)} className='border-2 hover:border-blue-700 rounded-xl hover:bg-blue-200 font-semibold hover:text-black text-[#fff] bg-blue-700 py-2 px-6 '>Choose Player</button>
+                    <button onClick={() => handleSelected(card)} className='border-2 hover:border-blue-700 rounded-xl hover:bg-blue-100 font-semibold hover:text-black text-[#fff] bg-blue-400 py-2 px-6 '>Choose Player</button>
                 </div>
             </div>
         </div>

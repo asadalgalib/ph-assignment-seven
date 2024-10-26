@@ -10,7 +10,7 @@ const Choosen = ({ select,handleDelet }) => {
             <div className=''>
                 <div className='border-2 border-blue-700 py-4 pl-4 pr-16 flex items-center justify-between rounded-md'>
                     <div className='flex justify-start gap-5'>
-                        <img className='w-52 h-full rounded-md' src={img} alt="" />
+                        <img className='w-48 h-full rounded-md' src={img} alt="" />
                         <div className='flex-col flex justify-around'>
                             <h2 className='text-xl font-semibold'>{name}</h2>
                             <p className='text-xl font-medium text-[#13131398]'>{handed_bat} Handed Bat</p>
